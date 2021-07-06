@@ -2,6 +2,36 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+.navigation-bar .logo img {
+  height: 40px;
+  width: auto;
+}
+#Logo {
+  float: left;
+  margin-left: 80px;
+}
+.navigation-bar ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+  padding-right: 90px;
+  background-color: #13b6fc;
+}
+.navigation-bar li {
+  float: right;
+}
+.navigation-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 35px;
+  text-decoration: none;
+}
+.navigation-bar li a:hover {
+  background-color: #a9c47a;
+}
+
 #first-page {
   height: 100vh;
   width: 100%;
@@ -10,6 +40,7 @@ body {
 .first-page-container {
   display: flex;
   padding: 30px;
+  margin-top: -55px;
 }
 .first-left {
   padding: 50px;
@@ -141,11 +172,16 @@ h1 {
 }
 .recipe img {
   padding: 15px;
-  height: 43%;
-  width: auto;
+  height: 190px;
+  width: 100%;
+  max-width: 250px;
 }
 .second {
   margin-top: -5px;
+}
+.food-image {
+  display: flex;
+  justify-content: center;
 }
 .second img {
   height: 200px;
