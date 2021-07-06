@@ -37,6 +37,7 @@ h1 {
   font-size: 18px;
   text-decoration: none;
   border: none;
+  color: #fff;
   margin-top: 30px;
   box-shadow: 1px 1px 10px gray;
 }
@@ -45,7 +46,6 @@ h1 {
   box-shadow: 1px 1px 10px #00ff00;
   cursor: pointer;
   color: white;
-  font-size: 22px;
 }
 .first-right {
   width: 50%;
@@ -90,6 +90,7 @@ h1 {
   font-size: 18px;
   text-decoration: none;
   border: none;
+  color: #fff;
   margin-top: 40px;
   box-shadow: 1px 1px 10px gray;
 }
@@ -98,7 +99,6 @@ h1 {
   box-shadow: 5px 5px 30px #00f;
   cursor: pointer;
   color: white;
-  font-size: 22px;
 }
 
 #third-page {
@@ -224,12 +224,12 @@ h3 {
 }
 .email-section h2 {
   font-size: 35px;
-  color: red;
+  color: blue;
   margin-top: -15px;
   margin-bottom: 60px;
 }
 .email-section .btn {
-  background-image: linear-gradient(to top, red, #ff9e9e);
+  background-image: linear-gradient(to top, blue, skyblue);
   padding: 20px 40px;
   border-radius: 50px;
   border: none;
@@ -239,6 +239,31 @@ h3 {
 }
 .email-section .btn:hover {
   background-image: linear-gradient(to top, #006600, #00ff00);
+}
+
+#sixth-page {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+.video-section {
+  /* background-color: lightcyan; */
+  display: flex;
+  justify-content: space-around;
+  width: 91%;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px #388eff;
+}
+.text-video h3 {
+  margin-top: -30px;
+}
+.video {
+  display: flex;
+  align-items: center;
+}
+.video iframe {
+  border-radius: 20px;
+  border: none;
 }
 
 #last-page {
@@ -258,5 +283,8 @@ h3 {
 .footer p {
   color: #575757;
   font-weight: 500;
-  margin-top: -20px;
+  margin-top: -30px;
+}
+.footer small{
+  color: white;
 }
