@@ -236,6 +236,7 @@ h3 {
 }
 .contact-section {
   display: flex;
+  justify-content: center;
 }
 .email-section {
   display: flex;
@@ -274,7 +275,7 @@ h3 {
   font-size: 20px;
 }
 .email-section .btn:hover {
-  background-image: linear-gradient(to top, #006600, #00ff00);
+  background-image: linear-gradient(to top, #000087, #25c1ff);
 }
 
 #sixth-page {
@@ -289,8 +290,13 @@ h3 {
   border-radius: 40px;
   box-shadow: 5px 5px 30px #388eff;
 }
-.text-video h3 {
-  margin-top: -30px;
+.text-video {
+  display: flex;
+  align-items: center;
+}
+.text-video span {
+  font-size: 50px;
+  color: #575757;
 }
 .video {
   display: flex;
