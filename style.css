@@ -81,6 +81,7 @@ h1 {
 #second-paragraph {
   color: #000;
   font-size: 20px;
+  text-align: justify;
 }
 #button2 {
   background-image: linear-gradient(to right, #7a74e0, #2117c9);
@@ -112,8 +113,10 @@ h1 {
   margin-bottom: 40px;
   margin-top: 40px;
   width: 30%;
-  padding: 40px;
-  box-shadow: 1px 1px 30px #00f;
+  padding: 15px;
+  border-radius: 20px;
+  border: 2px solid blue;
+  box-shadow: 1px 1px 30px blue;
 }
 .third-page-intro p {
   padding-left: 20%;
